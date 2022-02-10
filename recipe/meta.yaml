@@ -25,6 +25,7 @@ requirements:
     - numpy
     - pandas
     - python >=3.6
+    - typing_inspect
 
 test:
   imports:
