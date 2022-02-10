@@ -1,5 +1,5 @@
 {% set name = "sf-hamilton" %}
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sf-hamilton-{{ version }}.tar.gz
-  sha256: c6866465ce36dab5f710f15cdbba72cf721cc90cd8d3209476adc1eed99e0218
+  sha256: 0b0dd915b7a62fd638da25b590213e92c3eb0fbe7ba1916897b1612ef196a6d4
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - numpy
     - pandas
     - python >=3.6
+    - typing_inspect
 
 test:
   imports:
