@@ -1,11 +1,11 @@
-About sf-hamilton
-=================
+About sf-hamilton-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sf-hamilton-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/stitchfix/hamilton
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sf-hamilton-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hamilton, the micro-framework for creating dataframes.
 
