@@ -3,7 +3,7 @@ About sf-hamilton-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sf-hamilton-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/stitchfix/hamilton
+Home: https://github.com/DAGWorks-Inc/hamilton
 
 Package license: BSD-3-Clause
 
