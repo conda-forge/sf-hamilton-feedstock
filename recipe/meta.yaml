@@ -38,6 +38,7 @@ test:
 about:
   home: https://github.com/DAGWorks-Inc/hamilton
   summary: Hamilton, the micro-framework for creating dataframes.
+  doc_url: https://hamilton.dagworks.io/en/latest/
   license: BSD-3-Clause
   license_file: LICENSE
 
