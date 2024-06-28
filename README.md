@@ -9,6 +9,8 @@ Package license: BSD-3-Clause
 
 Summary: Hamilton, the micro-framework for creating dataframes.
 
+Documentation: https://hamilton.dagworks.io/en/latest/
+
 Current build status
 ====================
 
