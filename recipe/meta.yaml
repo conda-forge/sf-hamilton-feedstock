@@ -1,5 +1,5 @@
 {% set name = "sf-hamilton" %}
-{% set version = "1.71.0" %}
+{% set version = "1.72.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2f2bea056d48df707e3ed9ace71b8315cba80001ca5222cee9032ee3df700d7e
+  sha256: 24bddde05f04bd1eedf14410de3eda627a0f847e0169ec2067fa90e21df9562f
 
 
 build:
