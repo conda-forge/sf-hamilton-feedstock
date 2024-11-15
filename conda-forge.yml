@@ -7,4 +7,3 @@ conda_build:
 bot:
   inspection: hint-all
   automerge: true
-  inspection: update-grayskull
