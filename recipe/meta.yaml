@@ -1,6 +1,5 @@
-{% set python_min = python_min|default("0.1a0") %}
 {% set name = "sf-hamilton" %}
-{% set version = "1.83.0" %}
+{% set version = "1.83.1" %}
 
 
 package:
@@ -9,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: aabbb64eb26857f55bf8e1eda43071da1bce6a0776b6d805d6c40b46153dc307
+  sha256: c061d3ddab26fd971d90a184f4c4c69b62bb4387dfc0e533f579bd47b2abc91c
 
 
 build:
@@ -20,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python {{ python_min }}.*
+    - python {{ python_min }}
     - setuptools >=72.1
   run:
     - numpy
@@ -36,7 +35,7 @@ test:
     - pip check
   requires:
     - pip
-    - python ={{ python_min }}
+    - python {{ python_min }}
 
 about:
   home: https://github.com/DAGWorks-Inc/hamilton
